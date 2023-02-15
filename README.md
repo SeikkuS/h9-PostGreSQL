@@ -30,14 +30,28 @@ ja loin itselleni tietokannan ja käyttäjän ja avaan SQL promptin.
     sudo -u postgres createdb seikku
     sudo -u postgres createuser seikku
     psql
-   
+
 ![kuva](https://user-images.githubusercontent.com/105205141/219023321-c47e880c-7648-4f2d-b125-d11edf03f583.png)
+
+## b)  
     
-Loin uuden tablen ja sinne muuttujan
+Loin uuden tablen ja sinne muuttujan johon syötin 3 nimeä:
 
 ![kuva](https://user-images.githubusercontent.com/105205141/219024398-73672e24-ac7a-4bba-b674-843a9c1205e6.png)
 
-    
+Kokeilin SELECT -komennolla etsiä syöttämäni "matti" -nimen hakemalla kaikkia nimiä jotka alkavat "ma".
+
+![kuva](https://user-images.githubusercontent.com/105205141/219025090-e78a96b2-af15-4d70-a9bd-b056f18b1857.png)
+
+UPDATE -komennolla päivitin "matti"-nimen toiseksi: 
+
+![kuva](https://user-images.githubusercontent.com/105205141/219025680-c5511280-cf3f-4909-8e45-2e17b06a7932.png)
+
+DELETE -komennolla poistin "matti meikäläinen"-muuttujan kokonaan tablesta:
+
+![kuva](https://user-images.githubusercontent.com/105205141/219025941-16ff921a-5c17-475c-b58d-971481b04316.png)
+
+
 
    
     
